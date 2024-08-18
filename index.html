@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      小超院长直播回放！- dili_1000000001 - 嘀哩嘀哩直播，三次元弹幕直播平台
+    </title>
+    <style>
+      body {
+        margin: 0;
+        height: 100vh;
+        background-color: #eee;
+      }
+      .flex {
+        /*左右*/
+        display: flex;
+      }
+      .baiSe {
+        background-color: white;
+      }
+      .flex1 {
+        /*填充剩下的*/
+        flex: 1;
+      }
+      .column {
+        /*上下*/
+        flex-direction: column;
+      }
+      .mg15 {
+        margin: 15px;
+      }
+    </style>
+  </head>
+  <body
+    class="flex column"
+    style="background-image: url(BackgroundImage.webp)"
+    ;
+  >
+    <!--头部栏-->
+    <div style="height: 60px" class="baiSe"></div>
+    <!--内容区-->
+    <div class="flex1 flex">
+      <!--左区-->
+      <div style="flex: 7" class="column mg15">
+        <!--信息区-->
+        <div style="height: 100px" class="baiSe">
+          <img
+            src="https://q2.itc.cn/q_70/images03/20240807/9efb7d3e616440c6ab1d7e1d9b9be14f.jpeg"
+            width="60"
+            height="60"
+          />
+          <p>小超院长直播回放！ 主机游戏</p>
+        </div>
+        <!--直播区-->
+        <div style="height: 680px" class="baiSe">
+          <video width="1600px" height="700" controls>
+            <source src="video\sp1.mp4" type="video/mp4" />
+            <source src="video\sp2.mp4" type="video/mp4" />
+            <source src="video\sp3.mp4" type="video/mp4" />
+            您的浏览器不支持 HTML5 video 标签。
+          </video>
+        </div>
+        <!--礼物区-->
+        <div style="height: 100px" class="baiSe"></div>
+      </div>
+      <!--右区-->
+      <div style="flex: 1" class="column mg15 baiSe">
+        <!--提示区-->
+        <div style="height: 158px" class="baiSe"></div>
+        <!--弹幕区-->
+        <div class="flex1 column">
+          <!--看字区-->
+          <div style="height: 559px" class="baiSe"></div>
+          <!--发字区-->
+          <div style="height: 158px" class="baiSe">
+            <input style="margin: 9px" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
